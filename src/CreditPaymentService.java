@@ -2,7 +2,7 @@ public class CreditPaymentService {
     public double calculate(int amount, double rate, int time) {
 
         // конвертации для формата месяца
-        rate = (rate/100)/12;
+        rate = (rate / 100) / 12;
 
         // перевод время в месяцах
         time = time * 12;
